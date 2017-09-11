@@ -51,7 +51,10 @@
     "codelyzer": "~3.1.0",
     "css-loader": "^0.26.1",
     "exports-loader": "^0.6.3",
-    "file-loader": "^0.10.0"
+    "file-loader": "^0.10.0",
+    "less-loader": "^2.2.3",
+    "postcss-loader": "^0.13.0",
+    "postcss-url": "^5.1.2"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0",
