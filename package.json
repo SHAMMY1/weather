@@ -55,7 +55,8 @@
     "less-loader": "^2.2.3",
     "postcss-loader": "^0.13.0",
     "postcss-url": "^5.1.2",
-    "@angular/cli": "1.0.0"
+    "@angular/cli": "1.0.0",
+    "@angular/compiler-cli": "2.4.10"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0",
