@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">User Information</div>
+            <ul class="list-group">
+                <li class="list-group-item">Email: {{(currentUser()|async).email}}</li>
+                <li class="list-group-item">Display Name: {{(currentUser()|async).displayName}}</li>
+                <li class="list-group-item">Uid: {{(currentUser()|async).uid}}</li>
+                <li class="list-group-item">Provider Id: {{(currentUser()|async).providerId}}</li>
+                <li class="list-group-item" *ngIf="(currentUser()|async).photoURL"><img
+                        [src]="(currentUser()|async).photoURL"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
